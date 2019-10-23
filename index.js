@@ -1,7 +1,6 @@
 const http = require("http");
 
 const requestHandler = (req, res) => {
-    if (req.url === "/")
     console.log(req.url);
     res.end('Hello world');
 };
